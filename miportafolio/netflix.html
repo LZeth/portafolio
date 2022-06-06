@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" type="image/svg" href="iconos/nelflix-icon.svg" >
+    <link  rel="stylesheet" href="netflix.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="login">
+        <header class="header">
+            <div class="l">
+                <img class="logo" src="iconos/netflix_logo.png" alt="logo"  draggable="false" >
+                <div class="inicio">
+                    <h2>Inicia sesión</h2>
+                    <form>
+                        <input type="text" name="nombre" id="nombre" placeholder="Email o número de teléfono" autocomplete="off">
+                        <input type="password" name="password" id="password" placeholder="Contraseña">
+                        <input type="submit" value="Iniciar sesión"> <a href="Index2.html"></a>
+                    </form>
+                    <div class="recuerdame">
+                        <div class="checkbox">
+                            <input type="checkbox" name="recuerdame" id="recuerdame">
+                            <label for="recuerdame">Recuérdame</label>
+                        </div>
+                        <div class="ayuda">
+                            <a href="https://www.netflix.com/mx/LoginHelp">
+                                <p>¿Necesitas ayuda?</p>
+                            </a>
+                        </div>
+                        <div class="face">
+                            <a href="#" class="login"><img class="facebook" src="iconos/facebook.svg" alt="Icono">Inicia sesión con Facebook</a>
+                            <p class="primera">¿Primera vez en Netflix?<a href="https://www.netflix.com/mx/">Suscríbete ahora. </a></p>
+                            <p class="captcha">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot.<a href="#">Más info</a></p>
+                        </div>
+                    </div>
+            </div>
+        </header>
+        <footer class="abajo">
+            <div class="datos">
+                <p>¿Preguntas? Llama al <a href="tel:800-062-2406">800-062-2406</a></p>
+                <ul class="enlaces">
+                    <li class="links"><a href="#">Preguntas frecuentes</a></li>
+                    <li class="links"><a href="#">Centro de Ayuda</a></li>
+                    <li class="links"><a href="#">Términos de uso</a></li>
+                    <li class="links"><a href="#">Privacidad</a></li>
+                    <li class="links"><a href="#">Preferencias de cookies</a></li>
+                    <li class="links"><a href="#">Información corporativa</a></li>
+                </ul>
+                <select name="lenguaje" id="lenguaje">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

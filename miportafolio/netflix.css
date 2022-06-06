@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*
+*::after,
+*::before{
+    margin: 0;
+    border: 0;
+    border-color: transparent;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    border: 0;
+    border-color: transparent;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.login {
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(iconos/background.jpg);
+    background-position: top;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border: 0;
+}
+@media ( max-width: 740px ) {
+    .login{
+        background: #000;
+    }
+}
+.logo {
+    width: 165px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    z-index: 100;
+}
+@media ( max-width: 740px ) {
+    .logo{
+        width: 180px;
+    }
+}
+.inicio {
+    background-color: #000000bf;
+    border-radius: 5px;
+    color: #fff;
+    margin: 40px auto 100px;
+    padding: 70px, 60px, 150px;
+    width: 450px;
+    height: 700px;
+}
+@media ( max-width: 740px ) {
+    .inicio{
+        background: transparent;
+        margin: 0;
+        width: 100%;
+        padding: 70px 40px 90px;
+        border-bottom: 1px solid gray;
+    }
+}
+.inicio h2 {
+    padding-left: 15%;
+    padding-top: 15%;
+    font-size: 30px;
+    
+}
+.inicio input {
+    display: block;
+    
+    color: #fff;
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 15%;
+    margin-left: 15%;
+}
+.inicio input[type="text"], .inicio input[type="password"] {
+    background-color: #353535;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 0 20px;
+
+}
+.inicio input[type="text"]::-webkit-input-placeholder, .inicio input[type="password"]::-webkit-input-placeholder{
+    color: #949494;
+    font-size: 16px;
+
+}
+.inicio input[type="submit"] {
+    background-color: red;
+    font-size: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.inicio .recuerdame {
+    color: #949494;
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 50px;
+    height: 30px;;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.inicio .recuerdame .checkbox {
+    width: 30px;
+    height: 30px;
+    margin-left: 20;  
+}
+.checkbox label {
+    margin-left: 10px;
+    width: 100%;  
+}
+.checkbox input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding-left: 50px;
+}
+.inicio .ayuda a {
+    text-decoration: none;
+    color: #949494;  
+}
+.inicio .ayuda a:hover {
+    text-decoration: underline;
+}
+.face {
+    margin-top: 40px; 
+}
+.face .login {
+    text-decoration: none;
+    color: #727272;
+    font-size: 13px;
+}
+.login .facebook {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 7px;  
+}
+.face .primera{
+    margin-top: 12px;
+    font-size: 17px;
+    color: #727272;
+    font-weight: lighter;
+}
+.face .primera a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.face .primera a:hover{
+    text-decoration: underline;
+}
+.face .captcha{
+    margin-top: 12px;
+    font-size: 13px;
+    color: #9b9b9b;
+    width: 300px;
+}
+.face .captcha a {
+    text-decoration: none;
+    color: #5656ff;
+}
+.abajo{
+    padding:  25px 40px 50px;
+    background-color: #000000bf;
+    margin: auto;
+}
+.abajo a:hover{
+    text-decoration: underline;
+}
+.datos{
+    max-width: 1000px;
+    margin: auto;
+}
+.datos p {
+    color: gray;
+}
+.datos p a {
+    color: inherit;
+    text-decoration: none;
+}
+.enlaces{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.links {
+    width: 250px;
+    min-width: 200px;
+}
+.links a {
+    color: gray;
+    font-size: 13px;
+    margin: 10px;
+    text-decoration: none;
+}
+.datos select {
+    background-color: #000;
+    border: 1px solid rgba(128, 128, 128, .46);
+    color: gray;
+    outline: none;
+    padding: 13px;
+}
